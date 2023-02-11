@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+
 
 export default function About() {
   return (
@@ -9,11 +11,13 @@ export default function About() {
       >
         <div className="sm:w-1/2 sm:h-96 item-center align-middle justify-center flex h-[50%] w-full">
           <div className="w-1/2 sm:w-1/2 px-4">
-            <img
+            {/* <Image
+              width={100}
+              height={100}
               src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg"
               alt="..."
               className="shadow rounded-full max-w-full h-auto align-middle border-none mt-5 md:w-46 md:m-0"
-            />
+            /> */}
           </div>
         </div>
         <div className="sm:w-1/2 w-full flex-col text-center  h-[50%] sm:h-96 ">
