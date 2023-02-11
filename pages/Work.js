@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 const Work = () => {
   return (
@@ -27,11 +28,13 @@ const Work = () => {
               }}
             >
               <div className="w-full  mb-4 hover:shadow-2xl cursor-pointer max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ml-3 mr-4">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   className="object-cover w-full h-56 "
                   src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                   alt="avatar"
-                ></img>
+                ></Image>
 
                 <div className="py-5 text-center">
                   <a
@@ -63,11 +66,13 @@ const Work = () => {
               }}
             >
               <div className="w-full  mb-4  hover:shadow-2xl cursor-pointer max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ml-3 mr-4">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   className="object-cover w-full h-56"
                   src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                   alt="avatar"
-                ></img>
+                ></Image>
 
                 <div className="py-5 text-center">
                   <a
@@ -98,11 +103,13 @@ const Work = () => {
               }}
             >
               <div className="w-full max-w-xs mb-4  hover:shadow-2xl cursor-pointer overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ml-3 mr-4">
-                <img
+                {/* <Image
+                  width={100}
+                  height={100}
                   className="object-cover w-full h-56"
                   src="https://img.freepik.com/free-vector/marketing-concept-illustration_114360-3903.jpg?size=626&ext=jpg&ga=GA1.2.267023450.1675486331&semt=ais"
                   alt="avatar"
-                ></img>
+                ></Image> */}
 
                 <div className="py-5 text-center">
                   <a
