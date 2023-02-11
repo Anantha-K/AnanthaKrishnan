@@ -9,7 +9,7 @@ const Work = () => {
         id="Skills"
         className="flex flex-col justify-center items-center align-middle w-full bg-gradient-to-b from-white via-gray-100 to-gray-800"
       >
-        <h1 className="font-bold text-4xl p-3">What I'm Good at</h1>
+        <h1 className="font-bold text-4xl p-3">What I'm Good at&apos;</h1>
 
         <div className=" py-7 h-[50%]  flex flex-col sm:flex-row sm:m-0  justify-center align-middle items-center w-full ">
           <motion.div

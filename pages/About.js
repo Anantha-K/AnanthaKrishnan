@@ -32,7 +32,7 @@ export default function About() {
             me to create dynamic, user-friendly websites and apps that provide
             an excellent user experience. I'm always striving to improve and
             stay up to date with the latest development technologies.I look
-            forward to the opportunity to bring your project to life.
+            forward to the opportunity to bring your project to life.&apos;
           </p>
         </div>
       </div>
