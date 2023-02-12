@@ -39,8 +39,8 @@ export default function Home() {
             <div className='flex flex-col lg:w-1/2 sm:w-screen'>
               <div className=' lg:ml-28 lg:mt-28 md:ml-28 md:mt-28 sm:ml-0 mt-0'>
 
-                <p className='text-xl text-white'>Hey!<span>I'm&apos;</span></p>
-                <h1 className='text-5xl text-white'>Anantha Krishnan</h1>
+                <p className='text-xl text-white'>Hey!<span>I'm</span></p>
+                <h1 className='md:text-5xl sm:text-4xl text-white'>Anantha Krishnan</h1>
                 <p className='text-xl mt-3 mb-3 text-white'>Self-Taught</p>
                 <Typewriter
                     options={{
