@@ -104,8 +104,8 @@ const Work = () => {
             >
               <div className="w-full max-w-xs mb-4  hover:shadow-2xl cursor-pointer overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ml-3 mr-4">
                 <Image
-                  width={100}
-                  height={100}
+                  width={300}
+                  height={300}
                   className="object-cover w-full h-56"
                   src="https://img.freepik.com/free-vector/marketing-consulting-concept-illustration_114360-9027.jpg?w=2000&t=st=1676207299~exp=1676207899~hmac=1c1b9e9f2cea1ffe69df8ffc66340aea3e1a9a9badf1575871009a7fca1eb86a"
                   alt="avatar"
