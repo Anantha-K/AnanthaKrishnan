@@ -10,14 +10,14 @@ export default function About() {
         id="About"
       >
         <div className="sm:w-1/2 sm:h-96 item-center align-middle justify-center flex h-[50%] w-full">
-          <div className="w-1/2 sm:w-1/2 px-4">
-            {/* <Image
-              width={100}
-              height={100}
-              src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg"
+          <div className="w-1/2 sm:w-1/2 px-4 flex">
+            <Image
+            width='6vw'
+            height='8vh'
+              src="/Anandu.jpeg"
               alt="..."
-              className="shadow rounded-full max-w-full h-auto align-middle border-none mt-5 md:w-46 md:m-0"
-            /> */}
+              className="picRound rounded-full max-w-full h-full align-middle border-none mt-5 md:w-46 md:m-0  object-cover"
+            />
           </div>
         </div>
         <div className="sm:w-1/2 w-full flex-col text-center  h-[50%] sm:h-96 ">
@@ -32,7 +32,7 @@ export default function About() {
             me to create dynamic, user-friendly websites and apps that provide
             an excellent user experience. I'm always striving to improve and
             stay up to date with the latest development technologies.I look
-            forward to the opportunity to bring your project to life.&apos;
+            forward to the opportunity to bring your project to life.;
           </p>
         </div>
       </div>

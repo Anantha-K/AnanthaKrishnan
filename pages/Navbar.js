@@ -33,7 +33,8 @@ const Header = () => {
       <div className="flex items-center justify-between px-6 py-3 sm:flex-row sm:justify-start sm:px-10">
         <div className="flex items-center">
           <button
-            className="text-white font-medium text-3xl hover:text-red-600 transition duration-700 sm:hidden"
+    
+            className="text-white mr-3 font-medium text-3xl hover:text-red-600 transition duration-700 sm:hidden"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <BiMenuAltLeft/>
