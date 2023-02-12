@@ -2,5 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 *{
-  scroll-behaviour:smooth;
+  scroll-behavior: smooth;
+}
+.picRound {
+  border-radius: 50%;
 }
