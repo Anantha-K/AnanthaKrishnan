@@ -9,7 +9,7 @@ const Work = () => {
         id="Skills"
         className="flex flex-col justify-center items-center align-middle w-full bg-gradient-to-b from-white via-gray-100 to-gray-800"
       >
-        <h1 className="font-bold text-4xl p-3">What I'm Good at&apos;</h1>
+        <h1 className="font-bold text-4xl p-3">What I'm Good at</h1>
 
         <div className=" py-7 h-[50%]  flex flex-col sm:flex-row sm:m-0  justify-center align-middle items-center w-full ">
           <motion.div
@@ -29,10 +29,10 @@ const Work = () => {
             >
               <div className="w-full  mb-4 hover:shadow-2xl cursor-pointer max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ml-3 mr-4">
                 <Image
-                  width={100}
-                  height={100}
+                  width={300}
+                  height={300}
                   className="object-cover w-full h-56 "
-                  src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                   alt="avatar"
                 ></Image>
 
